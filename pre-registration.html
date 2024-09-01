@@ -24,18 +24,21 @@
 .card:hover{
  background: #f2f2f2!important;
 }
-a:hover{color:  #000;}
+a:hover{color:  hsl(339, 97%, 48%);}
+.gbutton{background-color: green!important;
+color: #fff;}
 </style>
 </head>
 <body>
 	<div class="container text-center mt-2">
 		<div class="row">
-			<div class="col-12 mb-3">
-				<a href="#">
-					<img src="greenlogo.png" class="w-80">
-					<p>Welcome To Green University</p>
-				</a>
-			</div>
+        <!-- Logo and Welcome Message -->
+        <div class="mb-6">
+            <a href="index.html">
+                <img src="img/greenlogo.png" alt="Green University Logo" class="mx-auto w-32">
+                <p class="mt-2 text-center">Welcome To Green University</p>
+            </a>
+        </div>
 		</div> 	
 
 	
@@ -49,8 +52,52 @@ a:hover{color:  #000;}
 			</div> 										<!-- col-6 end -->	
 		</div>
 <br>
-		<p class="text-center">comming soon......</p>
-
+<div class="max-w-3xl mx-auto bg-white p-6 rounded-lg shadow-lg py-5">
+	<h1 class="text-3xl font-bold mb-4 text-center">How to Pre-Register for a Course at Green University of Bangladesh (GUB)</h1>
+	<p class="mb-4">Follow these steps to pre-register for a course at GUB:</p>
+	
+	<div class="mb-6 flex items-start">
+		<i class="fas fa-university text-indigo-600 text-2xl mr-4"></i>
+		<div>
+			<h2 class="text-xl font-semibold mb-2">1. Go to the Login Portal</h2>
+			<p class="text-gray-700">Visit the <a href="https://studentportal.green.edu.bd/" class="text-indigo-600 hover:underline">Green University Student Portal</a>.</p>
+		</div>
 	</div>
+	
+	<div class="mb-6 flex items-start">
+		<i class="fas fa-sign-in-alt text-indigo-600 text-2xl mr-4"></i>
+		<div>
+			<h2 class="text-xl font-semibold mb-2">2. Login</h2>
+			<p class="text-gray-700">Enter your student credentials (username and password) to access your account.</p>
+		</div>
+	</div>
+	
+	<div class="mb-6 flex items-start">
+		<i class="fas fa-list text-indigo-600 text-2xl mr-4"></i>
+		<div>
+			<h2 class="text-xl font-semibold mb-2">3. Navigate to Pre-Registration</h2>
+			<p class="text-gray-700">Once logged in, look for the "Pre-Registration" option in the menu.</p>
+		</div>
+	</div>
+	
+	<div class="mb-6 flex items-start">
+		<i class="fas fa-check-circle text-indigo-600 text-2xl mr-4"></i>
+		<div>
+			<h2 class="text-xl font-semibold mb-2">4. Select Course</h2>
+			<p class="text-gray-700">Click on the "Pre-Registration" option and choose the courses you wish to register for.</p>
+		</div>
+	</div>
+	
+	<div class="mb-6 flex items-start">
+		<i class="fas fa-thumbs-up text-indigo-600 text-2xl mr-4"></i>
+		<div>
+			<h2 class="text-xl font-semibold mb-2">5. Confirm Registration</h2>
+			<p class="text-gray-700">Follow any additional prompts to finalize your course selection.</p>
+		</div>
+	</div>
+</div>
+<div class="text-center m-4">
+	<a href="index.html" class="text-center btn btn-success">Back Home</a>
+</div>
 </body>
 </html>
